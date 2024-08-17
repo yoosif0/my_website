@@ -1,0 +1,2 @@
+NODE20_PATH="path to node20 bin folder"
+PATH="$PATH:$NODE20_PATH"

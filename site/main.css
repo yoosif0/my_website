@@ -1,0 +1,21 @@
+/* For readability */
+.text-container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Override the default extreme padding in ul */
+.text-container ul {
+    padding-inline-start: 15px;
+    margin-block-start: 5px;
+}
+
+h2,h3 {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+

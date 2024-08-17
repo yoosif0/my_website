@@ -1,0 +1,10 @@
+{
+  "name": "website2",
+  "devDependencies": {
+    "@lit-labs/ssr": "^3.2.2",
+    "dotenv": "^16.4.5",
+    "gray-matter": "^4.0.3",
+    "lit": "^3.2.0",
+    "marked": "^14.0.0"
+  }
+}
