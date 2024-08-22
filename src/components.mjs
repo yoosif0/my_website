@@ -4,7 +4,7 @@ import { unsafeHTML } from "lit/directives/unsafe-html.js";
 const Link = (txt, href) => html`<a href=${href}> ${txt} </a>`;
 
 const landingPageItems = {
-  Articles: [],
+  Writing: [],
   Projects: [
     Link(
       "Arabic tacotron TTS: end-to-end Arabic TTS system. Tech: python, numpy, scipy",
@@ -38,7 +38,17 @@ const landingPageItems = {
   ],
 };
 
-const Layout = (body) => html` <div class="text-container">${body}</div> `;
+const Layout = (body) => html`
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+      <div class="text-container">${body}</div>
+    </body>
+  </html>
+`;
 const ArticlePageBody = (title, content) => html`
     <h2>${title}</h2>
       ${unsafeHTML(content)}
