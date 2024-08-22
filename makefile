@@ -1,4 +1,4 @@
-.PHONY: gen cp serve
+.PHONY: gen cp serve deploy
 
 # generate html from markdow
 gen:
@@ -10,3 +10,6 @@ cp:
 
 serve:
 	python3 -m http.server --directory site
+
+deploy:
+	cd site && vercel --prod
