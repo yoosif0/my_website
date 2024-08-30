@@ -15,6 +15,5 @@
 * `vercel --prod`
 
 
-## todo
-* list item should be like bing search results and show to what domain the user would go
-
+## Build log
+* arm64, Darwin Kernel Version 23.1.0, 
